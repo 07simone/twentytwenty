@@ -1,0 +1,120 @@
+.navbar-toggler {
+    color: gray;
+    background-color: #c2b8b8;
+}
+.img {
+    width: 60px;
+}
+.btn {
+    background-color: #218491;
+    color: white;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+ul li a {
+    color: black;
+}
+
+
+.carousel-inner button {
+    background-color: #218491;
+    color: white;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+.carousel-control-prev i, .carousel-control-next i {
+    color: white;
+    font-size: 3rem;
+}
+.carousel-caption {
+    z-index: 1;
+}
+
+
+#category {
+    padding: 5rem;
+}
+
+#category button {
+    background-color: #218491;
+    color: white;
+}
+#category button:hover {
+    background-color: black;
+}
+#cardWrapper {
+    background-color: rgba(224, 220, 220, 0.986);
+    padding: 5rem 0;
+}
+#cardWrapper img {
+    height: 170px;
+}
+#cardWrapper .riga {
+    height: 2px;
+    background-color: #218491;
+    margin-top: 1rem;
+    margin-left: 25px;
+    width: 50px;
+}
+#cardWrapper .riga1 {
+    height: 2px;
+    background-color: #218491;
+    margin-top: 1rem;
+    margin-left: 10px;
+    width: 50px;
+    display: none;
+}
+#cardWrapper .wrapperRow:hover {
+    cursor: pointer;
+    margin-left: 15px;
+    transition: margin 1s ease;
+}
+#cardWrapper .wrapperRow:hover .riga {
+    display: none;
+}
+#cardWrapper .wrapperRow:hover .riga1 {
+    display: block;
+}
+#cardWrapper #title {
+    color: #218491;
+}
+.right {
+    background-image: url("https://www.varesenews.it/photogallery_new/images/2019/11/livigno-neve-novembre-2019-772617.610x431.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20rem 0 5rem;
+}
+.left {
+    background-color: #218491;
+    padding: 7rem 2rem 5rem;
+    color: white;
+}
+ #focus button{
+    background-color: black;
+ }
+#focus .btn:hover {
+    background-color: white;
+    color: #218491;
+}
+
+#footer {
+    background-color: black;
+    padding: 3rem;
+}
+#footer .img {
+    width: 100px;
+}
+#footer .social {
+    margin-top: 3rem;
+}
+#footer .lorem {
+    color: white;
+}
+#footer .social{
+    color:#218491;
+    font-size: 3rem;
+}
